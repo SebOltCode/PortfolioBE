@@ -97,8 +97,8 @@ app.post("/contact", async (req, res) => {
                 `Sebastian Olthoff`,
             attachments: [
                 {
-                    filename: "CV.pdf",
-                    path: path.join(__dirname, "CV.pdf"),
+                    filename: "CV Sebastian Olthoff.pdf",
+                    path: path.join(__dirname, "CV Sebastian Olthoff.pdf"),
                     contentType: "application/pdf",
                 },
             ],
